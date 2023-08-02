@@ -1,0 +1,68 @@
+.header
+{
+    text-align: center;
+   font-size: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+body{
+    background-image: url(./Contant/wp7453739-portfolio-wallpapers.jpg);
+}
+.inner {
+ padding-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items:center ;
+    text-align: center;
+    grid-gap: 2rem;
+    padding: 1rem 70px;
+    font-size: 1.4rem;
+
+}
+.skill-box
+{
+    padding: 2rem;
+    color: #ddd;
+    cursor: pointer;
+}
+.skill-box:hover
+{
+   transform: var(--main-color); 
+}
+
+.skill-box{
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+.skill-icon{
+    width: 50px;
+}
+.skill-title::before{
+    display: flex;
+}
+.img {
+width: 90px;
+height: 90px;
+position: relative;
+border-radius: 45px;
+background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#discription{
+    text-align: center;
+    justify-content: space-between;
+}
+
+
